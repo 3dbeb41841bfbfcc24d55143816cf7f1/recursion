@@ -1,5 +1,7 @@
 # Recursion
 
+![Recursion](https://raw.githubusercontent.com/ATL-WDI-Curriculum/intro-to-recursion/master/images/recursion-1.jpg)
+
 ## What is Recursion?
 
 * The repeated application of a recursive procedure or definition.
