@@ -54,9 +54,16 @@ The result is the following:
 
 ```javascript
 function fact(n) {
-  return n < 2 ? n : n * fact(n-1);
+  return n === 1 ? 1 : n * fact(n-1);
 }
 
+console.log(fact(5));    // 120
+```
+
+or using ES6:
+
+```javascript
+let fact = n => n === 1 ? 1 : n * fact(n-1);
 console.log(fact(5));    // 120
 ```
 
